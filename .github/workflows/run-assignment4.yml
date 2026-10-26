@@ -1,3 +1,4 @@
+# Executes the Assignment 4 notebook and saves cell outputs.
 name: Execute Assignment 4 Notebook
 
 on:
