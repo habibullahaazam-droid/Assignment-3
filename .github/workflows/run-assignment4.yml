@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - ".github/workflows/run-assignment4.yml"
+      - "Assignment_4_Machine_Learning.ipynb"
   workflow_dispatch:
 
 permissions:
