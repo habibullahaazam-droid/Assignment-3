@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: "3.11"
       - name: Install packages
-        run: python -m pip install --upgrade pip pandas numpy matplotlib seaborn scikit-learn nbformat nbconvert
+        run: python -m pip install --upgrade pip pandas numpy matplotlib seaborn scikit-learn nbformat nbconvert ipykernel
       - name: Execute notebook and save outputs
         run: jupyter nbconvert --to notebook --execute --inplace Assignment_4_Machine_Learning.ipynb --ExecutePreprocessor.timeout=300
       - name: Commit notebook outputs
